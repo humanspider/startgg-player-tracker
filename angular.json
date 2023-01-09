@@ -91,6 +91,9 @@
             "ci": {
               "browsers": "ChromeHeadless",
               "watch": false
+            },
+            "local": {
+              "browsers": "Chrome,Firefox"
             }
           },
           "options": {
@@ -107,7 +110,8 @@
             ],
             "scripts": [],
             "codeCoverage": true
-          }
+          },
+          "defaultConfiguration": "local"
         }
       }
     }
